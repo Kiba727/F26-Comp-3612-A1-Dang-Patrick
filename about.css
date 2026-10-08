@@ -1,0 +1,143 @@
+.Nav-Bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0b151f;
+}
+
+.site-title{
+    color: #f8f9fa;
+}
+
+.site-title span{
+    color: #e6bb30;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#f8f9fa;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.nav-links a:hover{
+    background-color: #1f3a52;
+}
+
+.main-content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+#about-section{
+    background-color: #091929;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.align-container {
+    max-width: 100rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 rem;
+}
+
+#about-container {
+    align-items: center;
+    padding: 2rem 35rem;
+    max-width: 800px;       
+    width: 100%;
+}
+
+#title {
+    color: #f8f9fa;
+    font-size: 2rem;
+}
+
+#title-description {
+    color: #60676e;
+    font-size: 1.2rem;
+}
+
+#our-story-section {
+    background-color: #eeeded;
+    border-bottom: 1px solid #60676e;
+}
+
+#story-container{
+    display: flex;
+    justify-content: center;
+    gap: 40rem;
+}
+
+#our-values-section {
+    background-color: #ffffff;
+    border-bottom: 1px solid #60676e;
+}
+
+#our-team-section {
+    background-color: #eeeded;
+    border-bottom: 1px solid #60676e;
+}
+
+#our-journey-section {
+    background-color: #ffffff;
+    border-bottom: 1px solid #60676e;
+}
+
+#get-in-touch-section {
+    background-color: #eeeded;
+    border-bottom: 1px solid #60676e;
+}
+
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5rem 10rem;
+    background-color: #0b151f;
+}
+
+.footer-coloumns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.footer-header{
+    font-weight: bold;
+    color:#f8f9fa;
+    font-size: 20px;
+    margin: 0;
+
+}
+
+.footer-sub-header{
+    list-style: none;   
+    padding: 0;             
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 0.75rem;
+}
+
+.footer-sub-header a{
+    text-decoration: none;
+    color:#f8f9fa;
+}
