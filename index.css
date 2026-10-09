@@ -120,15 +120,23 @@
     border-top: 4px solid #e6bb30;
 }
 
-.product-card:hover button {
+.product-card:hover a {
     background-color: #0b151f; 
     color: #f8f9fa;         
 }
 
-.details-button{
-    display: flex;
-    justify-content: center;
+
+.details-button {
+    margin: 1rem;
+    text-align: center;
+    padding: 0.75rem 4rem;
+    text-decoration: none;   
+    color: #000000;            
+    background-color: #e9ecef; 
+    cursor: pointer;
 }
+
+
 
 .featured-image{
     display: flex;
