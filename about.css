@@ -53,7 +53,7 @@
     max-width: 100rem;
     width: 100%;
     margin: 0 auto;
-    padding: 0 rem;
+    padding: 0 2rem;
 }
 
 #about-container {
@@ -223,4 +223,26 @@
 .footer-sub-header a{
     text-decoration: none;
     color:#f8f9fa;
+}
+
+
+
+@media (max-width: 768px) {
+  
+
+    #value-container {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    #team-container {
+        flex-direction: column;
+        gap: 0;
+    }
+ 
+    .footer-box {
+        flex-direction: column;
+        gap: 3rem;         
+        padding: 5rem 2rem; 
+    }
 }

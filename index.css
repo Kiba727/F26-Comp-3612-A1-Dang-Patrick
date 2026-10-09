@@ -54,7 +54,7 @@
     max-width: 100rem;
     width: 100%;
     margin: 0 auto;
-    padding: 0 rem;
+    padding: 0 2rem;
 }
 
 #intro-container {
@@ -191,3 +191,26 @@
     color:#f8f9fa;
 }
 
+@media (max-width: 768px) {
+
+    .Nav-Bar{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-box {
+        flex-direction: column;
+        gap: 3rem;         
+        padding: 5rem 2rem; 
+    }
+}
