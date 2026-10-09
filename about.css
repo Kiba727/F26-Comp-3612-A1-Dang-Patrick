@@ -87,21 +87,104 @@
 #our-values-section {
     background-color: #ffffff;
     border-bottom: 1px solid #60676e;
+    padding: 4rem;
+    text-align: center;
+}
+
+#value-container{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.our-values-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    padding: 2rem; 
+    max-width: 24rem;
+    background-color:#eeeded;
+    text-align: left;
+}
+
+.our-values-card h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091929;
+    color: #e6bb30;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
 }
 
 #our-team-section {
     background-color: #eeeded;
     border-bottom: 1px solid #60676e;
+    padding: 4rem 4;
+}
+
+#team-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15rem;
+    margin-top: 3rem;
+}
+
+.team-card img{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.team-card h4{
+    color: #ccca36;
 }
 
 #our-journey-section {
     background-color: #ffffff;
     border-bottom: 1px solid #60676e;
+    padding: 4rem 0;
+}
+
+#jounrey-title{
+    text-align: center;
+    margin: 2rem;
+}
+
+.timeline-item{
+    border-left: 2px solid #e9ecef;
+    padding-left: 2rem;             
+    padding-bottom: 1rem;         
+}
+
+#timeline-container {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 #get-in-touch-section {
     background-color: #eeeded;
     border-bottom: 1px solid #60676e;
+    padding: 4rem 0;
+}
+
+#contact-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem
+}
+
+.contact-card{
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-radius: 8px;
 }
 
 
